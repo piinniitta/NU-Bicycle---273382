@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    /* max-width: 1300px; */
+    margin: 0 auto;
+}
+
+.logo{
+    width: 35px;
+    cursor: pointer;
+}
+
+.webname  {
+    margin: 10px;
+    color: #3C3A36;
+}
+
+nav {
+    height: 80px;
+    /*border: 1px solid red;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin: 20px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0.625rem 0.938rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #3C3A36;
+}
+
+.nav-btn {
+    text-align: center;
+    width: 100px;
+    height: 39px;
+    background: #EB5757;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn:hover{
+    background-color: #DD4E4E;
+}
+
+.nav-btn a {
+    color: #F2F2F2;
+    text-decoration: none;
+    display: inline block;
+    font-size: 14px;
+    margin: 8px;
+}
+
+.header-info {
+    margin-top: 113px;
+    /*border: 1px solid red;*/
+}
+
+/*
+.header-title h1 {
+    font-size: 58px;
+    margin-top: 20px;
+}
+
+.header-content p {
+    font-size: 28px;
+    margin-top: 20px;
+}
+*/
+
+.header-btn {
+    margin-top: 25px;
+    text-align: center;
+    width: 120px;
+    height: 45px;
+    background: #EB5757;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-btn a {
+    color: #F2F2F2;
+    text-decoration: none;
+    display: inline block;
+    font-size: 18px;
+}
+
+.header-btn:hover {
+    background-color: #DD4E4E;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 750px;
+}
+
+.content .textBox h2{
+    color: #3C3A36;
+    font-size: 3.6em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span{
+    color: #DD4E4E;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p{
+    font-size: 25px;
+    color: #3C3A36;
+    margin-top: 20px;
+}
+
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .imgBox img {
+    max-width: 540px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #DD4E4E;
+    clip-path: circle(600px at right 800px);
+}
+
